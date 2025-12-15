@@ -7,3 +7,4 @@ import yfinance as yf
 print(yf.__version__)
 
 df = yf.download("SPY", start="2000-01-01", end="2020-01-01")
+df["Closed"] 
